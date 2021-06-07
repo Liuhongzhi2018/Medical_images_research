@@ -5,7 +5,7 @@ What I cannot create, I do not understand.
 ## Medical Object Detection Methods
 Year|Proceeding|Title|Comment
 --|:--:|:--:|:--
-2021|WACV 2021| Painting Outside as Inside: Edge Guided Image Outpainting via Bidirectional Rearrangement with Progressive Step Learning [[paper]](https://openaccess.thecvf.com/content/WACV2021/papers/Kim_Painting_Outside_As_Inside_Edge_Guided_Image_Outpainting_via_Bidirectional_WACV_2021_paper.pdf) [[code]](https://github.com/GODGANG4885/Painting_Outside_as_Inside-POAI-)|
+2019|NeuroComputing 2021| CLU-CNNs: Object Detection for Medical Images [[paper]](https://www.researchgate.net/profile/Shiping_Wen/publication/332525939_CLU-CNNs_Object_detection_for_medical_images/links/5ce6078692851c4eabb70b18/CLU-CNNs-Object-detection-for-medical-images.pdf)|
 
 
 ## Medical Image Reconstruction Methods
