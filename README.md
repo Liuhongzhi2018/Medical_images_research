@@ -5,13 +5,13 @@ What I cannot create, I do not understand.
 ## Medical Object Detection Methods
 Year|Proceeding|Title|Comment
 --|:--:|:--:|:--
-2019|NeuroComputing 2021| CLU-CNNs: Object Detection for Medical Images [[paper]](https://www.researchgate.net/profile/Shiping_Wen/publication/332525939_CLU-CNNs_Object_detection_for_medical_images/links/5ce6078692851c4eabb70b18/CLU-CNNs-Object-detection-for-medical-images.pdf)|
+2021|NeuroComputing 2021| CLU-CNNs: Object Detection for Medical Images [[paper]](https://www.researchgate.net/profile/Shiping_Wen/publication/332525939_CLU-CNNs_Object_detection_for_medical_images/links/5ce6078692851c4eabb70b18/CLU-CNNs-Object-detection-for-medical-images.pdf)|
 
 
 ## Medical Image Reconstruction Methods
 Year|Proceeding|Title|Comment
 --|:--:|:--:|:--
-2021|WACV 2021| Painting Outside as Inside: Edge Guided Image Outpainting via Bidirectional Rearrangement with Progressive Step Learning [[paper]](https://openaccess.thecvf.com/content/WACV2021/papers/Kim_Painting_Outside_As_Inside_Edge_Guided_Image_Outpainting_via_Bidirectional_WACV_2021_paper.pdf) [[code]](https://github.com/GODGANG4885/Painting_Outside_as_Inside-POAI-)|
+2019|CVPR| X2CT-GAN: Reconstructing CT from Biplanar X-Rays with Generative Adversarial Networks [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Ying_X2CT-GAN_Reconstructing_CT_From_Biplanar_X-Rays_With_Generative_Adversarial_Networks_CVPR_2019_paper.pdf) [[code]](https://github.com/KetCathy/x2ct)| X-ray to CT
 
 
 # Related Link
