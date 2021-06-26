@@ -11,7 +11,9 @@ Year|Proceeding|Title|Comment
 ## Medical Image Reconstruction Methods
 Year|Proceeding|Title|Comment
 --|:--:|:--:|:--
+2021|CVPR| Multi-institutional Collaborations for Improving Deep Learning-based Magnetic Resonance Image Reconstruction Using Federated Learning [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Guo_Multi-Institutional_Collaborations_for_Improving_Deep_Learning-Based_Magnetic_Resonance_Image_Reconstruction_CVPR_2021_paper.pdf) [[supp]](https://openaccess.thecvf.com/content/CVPR2021/supplemental/Guo_Multi-Institutional_Collaborations_for_CVPR_2021_supplemental.pdf) [[code]](https://github.com/guopengf/FLMRCM) | MRI
 2019|CVPR| X2CT-GAN: Reconstructing CT from Biplanar X-Rays with Generative Adversarial Networks [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Ying_X2CT-GAN_Reconstructing_CT_From_Biplanar_X-Rays_With_Generative_Adversarial_Networks_CVPR_2019_paper.pdf) [[code]](https://github.com/KetCathy/x2ct)| X-ray to CT
+
 
 
 # Related Link
