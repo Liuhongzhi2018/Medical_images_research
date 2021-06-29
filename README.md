@@ -6,6 +6,7 @@ What I cannot create, I do not understand.
 Year|Proceeding|Title|Comment
 --|:--:|:--:|:--
 2021|NeuroComputing 2021| CLU-CNNs: Object Detection for Medical Images [[paper]](https://www.researchgate.net/profile/Shiping_Wen/publication/332525939_CLU-CNNs_Object_detection_for_medical_images/links/5ce6078692851c4eabb70b18/CLU-CNNs-Object-detection-for-medical-images.pdf)|
+2021|CVPR 2021| Automatic Vertebra Localization and Identification in CT by Spine Rectification and Anatomically-Constrained Optimization [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Automatic_Vertebra_Localization_and_Identification_in_CT_by_Spine_Rectification_CVPR_2021_paper.pdf) [[supp]](https://openaccess.thecvf.com/content/CVPR2021/supplemental/Wang_Automatic_Vertebra_Localization_CVPR_2021_supplemental.pdf) | CT
 
 
 ## Medical Image Reconstruction Methods
