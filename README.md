@@ -27,6 +27,8 @@ Year|Proceeding|Title|Comment
 
 [Top Conference and Journal](https://www.zhihu.com/question/284242946)
 
+[CVPR 2021](https://openaccess.thecvf.com/CVPR2021)
+
 [Medical Object Detection](https://www.paperswithcode.com/task/medical-object-detection#:~:text=Medical%20object%20detection%20is%20the%20task%20of%20identifying,Volumes%20with%20a%20Grouped%20Single%20Shot%20MultiBox%20Detector%29)
 
 [awesome-gan-for-medical-imaging](https://github.com/xinario/awesome-gan-for-medical-imaging)
