@@ -34,4 +34,5 @@ Year|Proceeding|Title|Comment
 
 [awesome-gan-for-medical-imaging](https://github.com/xinario/awesome-gan-for-medical-imaging)
 
+[CVPR-2021-Papers](https://github.com/52CV/CVPR-2021-Papers)
 
