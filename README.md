@@ -41,6 +41,10 @@ Year|Proceeding|Title|Comment
 
 # Related Link
 
+[Computer Science and Electronics Conferences](https://www.guide2research.com/conferences/)
+
+[Calls For Papers in science and technology fields](http://www.wikicfp.com/cfp/)
+
 [MICCAI](https://link.springer.com/conference/miccai)
 
 [MICCAI 2020](https://link.springer.com/book/10.1007/978-3-030-59710-8)
@@ -56,4 +60,21 @@ Year|Proceeding|Title|Comment
 [awesome-gan-for-medical-imaging](https://github.com/xinario/awesome-gan-for-medical-imaging)
 
 [CVPR-2021-Papers](https://github.com/52CV/CVPR-2021-Papers)
+
+[医学图像处理领域期刊和会议](https://blog.csdn.net/Ordinarybaby321/article/details/118874981?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_title~default-0.control&spm=1001.2101.3001.4242):  
+Journal:  
+TMI: IEEE Transactions on Medical Imaging  
+MedIA: Medical Image Analysis  
+JBHI: IEEE Journal of Biomedical and Health Informatics  
+TBE: IEEE TRANSACTIONS ON BIOMEDICAL ENGINEERING  
+MEDICAL PHYSICS  
+Conference:  
+MICCAI: International Conference on Medical Image Computing and Computer Assisted Intervention  
+IPMI: Information Processing in Medical Imaging  
+ISBI: IEEE International Symposium on Biomedical Imaging  
+SPIE Medical Imaging  
+MIDL: Medical Imaging with Deep Learning  
+ICIP: International Conference on Image Processing  
+
+  
 
