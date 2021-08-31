@@ -8,6 +8,7 @@ Year|Proceeding|Title|Comment
 2021|NeuroComputing | CLU-CNNs: Object Detection for Medical Images [[paper]](https://www.researchgate.net/profile/Shiping_Wen/publication/332525939_CLU-CNNs_Object_detection_for_medical_images/links/5ce6078692851c4eabb70b18/CLU-CNNs-Object-detection-for-medical-images.pdf)|
 2021|CVPR | Automatic Vertebra Localization and Identification in CT by Spine Rectification and Anatomically-Constrained Optimization [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Wang_Automatic_Vertebra_Localization_and_Identification_in_CT_by_Spine_Rectification_CVPR_2021_paper.pdf) [[supp]](https://openaccess.thecvf.com/content/CVPR2021/supplemental/Wang_Automatic_Vertebra_Localization_CVPR_2021_supplemental.pdf) | CT
 2021|CVPR | Leveraging Large-Scale Weakly Labeled Data for Semi-Supervised Mass Detection in Mammograms [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Tang_Leveraging_Large-Scale_Weakly_Labeled_Data_for_Semi-Supervised_Mass_Detection_in_CVPR_2021_paper.pdf) [[supp]](https://openaccess.thecvf.com/content/CVPR2021/supplemental/Tang_Leveraging_Large-Scale_Weakly_CVPR_2021_supplemental.pdf) | X-ray
+2020|MIDL| Skull R-CNN: A CNN-based network for the skull fracture detection [[paper]](http://proceedings.mlr.press/v121/kuang20a/kuang20a.pdf) | CT
 2018|Lancet| Deep learning algorithms for detection of critical findings in head CT scans: a retrospective study [[paper]](https://www.mlgdansk.pl/wp-content/uploads/2019/06/MLGdansk63_27.05.19_PIIS0140673618316453.pdf) | CT
 
 
