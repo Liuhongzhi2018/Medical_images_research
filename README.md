@@ -34,10 +34,17 @@ Year|Proceeding|Title|Comment
 2019|CVPR| X2CT-GAN: Reconstructing CT from Biplanar X-Rays with Generative Adversarial Networks [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Ying_X2CT-GAN_Reconstructing_CT_From_Biplanar_X-Rays_With_Generative_Adversarial_Networks_CVPR_2019_paper.pdf) [[code]](https://github.com/KetCathy/x2ct)| X-ray to CT
 
 
-## Medical Image Synthesis Methods
+
+## Medical Image Reconstruction Methods
 Year|Proceeding|Title|Comment
 --|:--:|:--:|:--
-2021|CVPR| Brain Image Synthesis with Unsupervised Multivariate Canonical CSCℓ4Net [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Huang_Brain_Image_Synthesis_With_Unsupervised_Multivariate_Canonical_CSCl4Net_CVPR_2021_paper.pdf) | oral 
+2021|CVPR| MR Image Super-Resolution With Squeeze and Excitation Reasoning Attention Network [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_MR_Image_Super-Resolution_With_Squeeze_and_Excitation_Reasoning_Attention_Network_CVPR_2021_paper.pdf)  | MRI 
+
+
+## Review Paper
+Year|Proceeding|Title|Comment
+--|:--:|:--:|:--
+2020| arXiv:2009.13120 | Medical image segmentation using deep learning: a survey [[paper]](https://arxiv.org/pdf/2009.13120.pdf) | survey 
 
 
 # Related Link
