@@ -1,0 +1,410 @@
+{
+    "python.defaultInterpreterPath": "D:\\Anaconda3\\python.exe",
+    "remote.SSH.remotePlatform": {
+        "SEU3": "linux",
+        "SEU4": "linux",
+        "SEU1": "linux",
+        "SEU90": "linux"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "update.enableWindowsBackgroundUpdates": false,
+
+    "latex-workshop.latex.autoClean.run": "onBuilt",
+    "latex-workshop.latex.tools": [
+        {
+            // 编译工具和命令
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-pdf",
+                "%DOCFILE%"
+            ]
+        },
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOCFILE%"
+            ]
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ]
+        }
+    ],
+   "latex-workshop.latex.recipes": [
+       {
+        "name": "xe->bib->xe->xe",
+        "tools": [
+            "xelatex",
+            "bibtex",
+            "xelatex",
+            "xelatex"
+          ]
+        },
+        {
+           "name": "xelatex",
+           "tools": [
+               "xelatex"
+            ],
+        },
+        {
+          "name": "pdflatex",
+          "tools": [
+              "pdflatex"
+            ]
+        },
+        {
+        "name": "latexmk",
+        "tools": [
+            "latexmk"
+            ]
+        },
+    //   {
+    //       "name": "xe->bib->xe->xe",
+    //       "tools": [
+    //           "xelatex",
+    //           "bibtex",
+    //           "xelatex",
+    //           "xelatex"
+    //         ]
+    //   },
+        {
+          "name": "pdf->bib->pdf->pdf",
+          "tools": [
+              "pdflatex",
+              "bibtex",
+              "pdflatex",
+              "pdflatex"
+            ]
+        }
+    ],
+    "latex-workshop.view.pdf.viewer": "external", 
+    "latex-workshop.view.pdf.external.viewer.command": "C:/Users/Administrator/AppData/Local/SumatraPDF/SumatraPDF.exe",
+    "latex-workshop.view.pdf.external.viewer.args": [
+        "-forward-search",
+        "%TEX%",
+        "%LINE%",
+        "-reuse-instance",
+        "-inverse-search",
+        "\"C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code\" \"C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/resources/app/outcli.js\" -gr \"%f\":\"%l\"",
+        "%PDF%"
+    ],
+    "latex-workshop.view.pdf.external.synctex.command": "C:/Users/Administrator/AppData/Local/SumatraPDF/SumatraPDF.exe",
+    "latex-workshop.view.pdf.external.synctex.args": [
+        "-forward-search",
+        "%TEX%",
+        "%LINE%",
+        "-reuse-instance",
+        "-inverse-search",
+        "code \"C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/resources/app/outcli.js\" -gr \"%f\":\"%l\"",
+        "%PDF%",
+    ],
+}
+
+
+// "latex-workshop.view.pdf.viewer": "external",
+// "latex-workshop.view.pdf.external.viewer.command": "C:/Users/Administrator/AppData/Local/SumatraPDF/SumatraPDF.exe",  //绝对路径 
+// "latex-workshop.view.pdf.external.viewer.args": [
+//         "--unique",
+//         "%PDF%"
+// ],
+// "editor.minimap.enabled": true,
+// "latex-workshop.latex.tools": [
+//     {
+//         "name": "xelatex",
+//         "command": "xelatex",
+//         "args": [
+//             "-synctex=1",
+//             "-interaction=nonstopmode",
+//             "-file-line-error",
+//             "%DOC%"
+//         ]
+//     },
+//     {
+//         "name": "xelatex-with-shell-escape",
+//         "command": "xelatex",
+//         "args": [
+//             "--shell-escape",
+//             "-synctex=1",
+//             "-interaction=nonstopmode",
+//             "-file-line-error",
+//             "%DOC%"
+//         ]
+//     },
+//     {
+//         "name": "xelatex-latexmk",
+//         "command": "latexmk",
+//         "args": [
+//             "-synctex=1",
+//             "-interaction=nonstopmode",
+//             "-file-line-error",
+//             "-xelatex",
+//             "-outdir=%OUTDIR%",
+//             "%DOC%"
+//         ]
+//     },
+//     {
+//         "name": "xelatex-latexmk-with-shell-escape",
+//         "command": "latexmk",
+//         "args": [
+//             "--shell-escape",
+//             "-synctex=1",
+//             "-interaction=nonstopmode",
+//             "-file-line-error",
+//             "-xelatex",
+//             "-outdir=%OUTDIR%",
+//             "%DOC%"
+//         ]
+//     },
+//     {
+//         "name": "pdflatex",
+//         "command": "pdflatex",
+//         "args": [
+//             "-synctex=1",
+//             "-interaction=nonstopmode",
+//             "-file-line-error",
+//             "%DOC%"
+//         ]
+//     },
+//     {
+//         "name": "pdflatex-with-shell-escape",
+//         "command": "pdflatex",
+//         "args": [
+//             "--shell-escape",
+//             "-synctex=1",
+//             "-interaction=nonstopmode",
+//             "-file-line-error",
+//             "%DOC%"
+//         ]
+//     },
+//     {
+//         "name": "pdflatex-latexmk",
+//         "command": "latexmk",
+//         "args": [
+//             "-synctex=1",
+//             "-interaction=nonstopmode",
+//             "-file-line-error",
+//             "-pdf",
+//             "-outdir=%OUTDIR%",
+//             "%DOC%"
+//         ]
+//     },
+//     {
+//         "name": "pdflatex-latexmk-with-shell-escape",
+//         "command": "latexmk",
+//         "args": [
+//             "--shell-escape",
+//             "-synctex=1",
+//             "-interaction=nonstopmode",
+//             "-file-line-error",
+//             "-pdf",
+//             "-outdir=%OUTDIR%",
+//             "%DOC%"
+//         ]
+//     },
+//     {
+//         "name": "latexmk",
+//         "command": "latexmk",
+//         "args": [
+//             "-synctex=1",
+//             "-interaction=nonstopmode",
+//             "-file-line-error",
+//             "-pdf",
+//             "%DOC%"
+//         ]
+//     },
+//     {
+//         "name": "bibtex",
+//         "command": "bibtex",
+//         "args": [
+//             "%DOCFILE%"
+//         ]
+//     },
+// ],
+// "latex-workshop.latex.recipes": [
+//     {
+//         "name": "PDFLaTeX",
+//         "tools": [
+//             "pdflatex"
+//         ]
+//     },
+//     {
+//         "name": "PDFLaTeX with Shell Escape",
+//         "tools": [
+//             "pdflatex-with-shell-escape"
+//         ]
+//     },
+//     {
+//         "name": "PDFLaTeX Auto",
+//         "tools": [
+//             "pdflatex-latexmk"
+//         ]
+//     },
+//     {
+//         "name": "PDFLaTeX Auto with Shell Escape",
+//         "tools": [
+//             "pdflatex-latexmk-with-shell-escape"
+//         ]
+//     },
+//     {
+//         "name": "XeLaTeX",
+//         "tools": [
+//             "xelatex"
+//         ]
+//     },
+//     {
+//         "name": "XeLaTeX with Shell Escape",
+//         "tools": [
+//             "xelatex-with-shell-escape"
+//         ]
+//     },
+//     {
+//         "name": "XeLaTeX Auto",
+//         "tools": [
+//             "xelatex-latexmk"
+//         ]
+//     },
+//     {
+//         "name": "XeLaTeX Auto with Shell Escape",
+//         "tools": [
+//             "xelatex-latexmk-with-shell-escape"
+//         ]
+//     },
+//     {
+//         "name": "PDFLaTeX -> BibTeX -> PDFLaTeX*2",
+//         "tools": [
+//             "pdflatex",
+//             "bibtex",
+//             "pdflatex",
+//             "pdflatex"
+//         ]
+//     },
+//     {
+//         "name": "XeLaTeX -> BibTeX -> XeLaTeX*2",
+//         "tools": [
+//             "xelatex",
+//             "bibtex",
+//             "xelatex",
+//             "xelatex"
+//         ]
+//     },
+//     {
+//         "name": "latexmk",
+//         "tools": [
+//             "latexmk"
+//         ]
+//     },
+//     {
+//         "name": "BibTeX",
+//         "tools": [
+//             "bibtex"
+//         ]
+//     },
+// ],
+
+
+
+// "workbench.colorTheme": "Default Light+",
+// "latex-workshop.latex.autoClean.run": "onBuilt",
+// "latex-workshop.latex.autoBuild.run": "never",
+// "editor.wordWrap": "on", // 显示时自动换行
+// "latex-workshop.latex.recipes": [
+//     {
+//       "name": "pdflatex -> bibtex -> pdflatex*2", // 注意编译时，默认是用第一个recipe，所以这个recipe要排在第一位，不然编译的时候由于.bib文件没有被编译而报错.
+//       "tools": [
+//           "pdflatex",
+//           "bibtex",
+//           "pdflatex",
+//           "pdflatex"
+//       ]
+//     },     
+//     {
+//       "name": "xelatex",
+//       "tools": [
+//           "xelatex"
+//       ]
+//     },     
+//     {
+//       "name": "latexmk",
+//       "tools": [
+//           "latexmk"
+//       ]
+//     },
+//     ],
+// "latex-workshop.latex.tools": [
+//     {"name": "latexmk",
+//     "command": "latexmk",
+//     "args": [
+//         "-synctex=1",
+//         "-interaction=nonstopmode",
+//         "-file-line-error",
+//         "-pdf",
+//         "%DOCFILE"
+//     ]},
+//     {
+//     "name": "xelatex",
+//     "command": "xelatex",
+//     "args": [
+//         "-synctex=1",
+//         "-interaction=nonstopmode",
+//         "-file-line-error",
+//         "%DOCFILE%"
+//     ]
+//     },
+//     {
+//         "name": "pdflatex",
+//         "command": "pdflatex",
+//         "args": [
+//             "-synctex=1",
+//             "-interaction=nonstopmode",
+//             "-file-line-error",
+//             "%DOCFILE%"
+//         ]
+//     },
+//     {
+//         "name": "bibtex",
+//         "command": "bibtex",
+//         "args": [
+//             "%DOCFILE%"
+//         ]
+//  }
+// ],
+// // 以下配置完可以用反向搜索
+// "latex-workshop.view.pdf.viewer": "external",
+// "latex-workshop.view.pdf.external.viewer.command": "C:/Users/Administrator/AppData/Local/SumatraPDF/SumatraPDF.exe", //SumatraPDF.exe的实际路径
+// "latex-workshop.view.pdf.external.viewer.args": [
+//     "-forward-search",
+//     "%TEX%",
+//     "%LINE%",
+//     "-reuse-instance",
+//     "-inverse-search",
+//     //注意要替换为VSCode的实际路径
+//     "\"C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/Code.exe\" \"C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/resources/app/out/cli.js\" -gr \"%f\":\"%l\"",
+//     "%PDF%"
+// ],
+// // 以下配置完才可以用正向搜索
+// "latex-workshop.view.pdf.external.synctex.command": "C:/Users/Administrator/AppData/Local/SumatraPDF/SumatraPDF.exe", //SumatraPDF.exe的实际路径
+// "latex-workshop.view.pdf.external.synctex.args": [
+//     "-forward-search",
+//     "%TEX%",
+//     "%LINE%",
+//     "-reuse-instance",
+//     "-inverse-search",
+//     // 注意要替换为VSCode的实际路径
+//     "\"C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/Code.exe\" \"C:/Users/Administrator/AppData/Local/Programs/Microsoft VS Code/resources/app/out/cli.js\" -gr \"%f\":\"%l\"",
+//     "%PDF%",
+// ],
+// "security.workspace.trust.untrustedFiles": "open",
+// "editor.minimap.enabled": false,
+// "editor.renderWhitespace": "all"
